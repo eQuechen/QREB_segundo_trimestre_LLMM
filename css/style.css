@@ -1,0 +1,103 @@
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: street;
+    src: url(../assets/font/street.otf);
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(../assets/img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+    font-family: street;
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+table {
+    font-family: street;
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    background-color: black;
+    margin: 0 auto;
+}
+
+.cabecera {
+    background-image: url(../assets/img/fondocabecera.jpg);
+    background-size: 100% 100%;
+    font-size: 40px;
+    color: whitesmoke;
+    opacity: .5;
+}
+
+td {
+    width: 40px;
+    height: 45px;
+    border: 2px solid gray;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+form {
+    background-color: black;
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: verdana;
+}
+
+legend {
+    font-family: street;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+
+textarea {
+    width: 560px;
+    min-height: 200px;
+}
+
+.boton {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: street;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+.datos-personales label {
+    display: block;
+    margin: 12px 0;
+}
+
+fieldset {
+    margin: 12px 0;
+}
